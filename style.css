@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Topbar */
+.top{
+    background-color: rgba(209, 208, 208, 0.4);
+    border: 1px solid rgb(170, 162, 162);
+    margin: 10px;
+    padding:1px;
+    display: flex;
+    justify-content:left;
+    font-size: 12px;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+.top-contener ul{
+    list-style-type: none;
+    float: right;
+    margin: 1px;
+}
+.top-contener ul li{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+padding-left: 1px;
+border: 1px solid #fff;
+transition: 0.5s ease;
+
+}
+.top-contener ul li a{
+    float: left;
+}
+
+
+/* Header */
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 1px;
+    justify-content:center;
+    align-items:center;
+    height: 100px;
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+    
+    
+
+}
+
+
+img{
+
+    border-style: none;
+    vertical-align: middle;
+    width: 250px;
+    height: 80px;
+    margin: 1px;
+    border-radius: 50%;
+
+}
+
+
+.bar ul{
+    list-style-type: none; 
+        float:right;
+        margin-top: 1px;
+}
+.bar ul li{
+
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+padding: 1px 20px;
+border: 1px solid #fff;
+transition: 0.5s ease;
+}
+.BTN{
+    color: white;
+    background-color: blue;
+    box-shadow: #000;
+}
+.bar ul li a:hover{
+        background-color: #fff;
+        color: grey;
+    
+    
+}
+.bar ul li{
+    text-decoration: none;
+        color:blue;
+padding: 5px 20px;
+border: 1px solid #fff;
+transition: 0.5s ease;
+
+}
+
+/* cont2 */
+
+.cont2{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 1px;
+    justify-content: space-evenly;
+
+    align-items:center;
+    height: 700px;
+    border-bottom: 1px solid gray;
+    margin: 10px;
+    width: 90%;
+    padding: 0px 20px 0px 20px;
+}
+
+.text{
+    width: 45%;
+}
+
+.colourtheem{
+    color: green;
+
+
+}
+
+
+
+.leftlogo img{
+    background-image: url(./asseta/c2.png);
+     width: 70%;
+    height: 600px;
+    overflow: auto;
+display: flex;
+justify-content: center;
+
+}
+
+.text{
+    width: 40%;
+    margin-left: auto;
+}
+
+.text ul li{
+
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+
+}
+.More{
+    color: white;
+    background-color: blue;
+    box-shadow: #000;
+}
+
+
+/* cont3 */
+
+.cont3{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    margin: 20px;
+    height: 200px;
+    border: 1px solid gray;
+    background-color: rgb(221, 205, 205);
+
+
+}
+.help{
+    width: 45%;
+    /* margin-right: auto; */
+padding-top: 30px;
+}
+
+.help h3{
+    color: blue;
+    padding-top: 10px;
+}
+
+
+.bt ul li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+padding-left: 1px;
+/* margin-left: auto; */
+/* border: 1px solid #fff; */
+transition: 0.5s ease;
+width: 45;
+padding-top: 35px;
+}
+
+.bt button{
+    width: 170px;
+    height: 50px;
+}
+
+.blk{
+background-color: #000;
+color: white;
+
+}
+.grn{
+    background-color: rgb(85, 190, 85);
+    color: white;
+}
+.bt2:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+/* Bcak */
+.bgimg{
+width: 95%;
+display: flex;
+justify-content: space-evenly;
+margin-top: 5px;
+border: #000;
+}
+
+
+.img{
+    background-image: url(./asseta/i.jpg);
+    width: 90%;
+height: 600px;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+padding: 5px;
+margin-top: 2px;
+}
+.what h1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cont4{
+display: flex;
+justify-content:space-evenly;
+width: 100%;
+align-items:center;
+margin: 30px 0 0 0;
+    padding-left:auto;
+
+}
+
+
+.cont4 button{
+    width: 12%;
+    margin: 0 0 0 44px;
+    padding: 20px;
+    max-height: 200px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #ffffe0;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+
+
+/* cont4 */
+
+
+.cont4{
+display: flex;
+justify-content: center;
+width: 100%;
+border: #000;
+
+}
+
+.cont4 button{
+
+    width: 10%;
+    height: 100px;
+    /* background-color: brown; */
+
+}
+.cont4 img{
+    width: 60%;
+    height: 100%;
+} 
+
+/* cont5 */
+
+.cont5{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 100px;
+    height: 600px;
+    /* gap: 30px; */
+    width: 100%;
+}
+
+
+.box1{
+
+    background-image: url(./asseta/Food\ Distribution.jpg);
+    width: 33%;
+    height: 500px;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+.box2{
+
+background-image: url(./asseta/IT.jpg);
+width: 33%;
+height: 500px;
+background-repeat: no-repeat;
+flex-shrink: 0;
+
+
+
+}
+
+.box3{
+    
+    background-image: url(./asseta/winterdb1ef105-5640-46bd-a160-6cb7709c6381.jpg);
+    width: 33%;
+    height: 500px;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+
+    
+
+}
+/* .cont5 h3{
+  
+} */
+
+.Cont6{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 10px;
+    height: 600px;
+    width: 100%;
+      flex-shrink: 0;
+
+
+}
+
+.Saylaniserve{
+width: 48%;
+background-image: url(./asseta/2178912-image-1584559620.jpg);
+height: 600px;
+background-repeat: no-repeat;
+flex-shrink: 0;
+
+}
+
+.Projects{
+    width: 48%;
+    background-color:lightgray;
+    height: 600px;
+    flex-shrink: 0;
+
+}
+
+/* Cont7 */
+
+.Updates{
+    display: flex;
+    justify-content: center;    
+    
+}
+.Media{
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+height: 350px;
+margin-top: auto;
+
+}
+
+.video1{
+    flex-shrink: 0;
+width: 24%;
+
+
+}
+
+.video2{
+    flex-shrink: 0;
+    width: 24%;
+
+}
+.video3{
+
+    flex-shrink: 0;
+    width: 24%;
+}
+.video4{
+    width: 24%;
+    flex-shrink: 0;
+}
+
+/* centerimg */
+.centerimg{
+    background-image: url(./asseta/bottem.png);
+    width: 95%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+
+/* Cont8 */
+
+.Cont8{
+
+border: #000;    
+flex-direction: column;
+background: rgb(203, 207, 211);
+height: 300px;
+}
+
+
+
+
+.pic{
+    border-radius: 40px;
+    height: 100px;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 10%;
+
+    vertical-align: middle;
+    padding: 10px;
+}
+.intro{
+    display: contents;
+    text-align: center;
+    width: 10%;
+    padding: 10px;
+
+
+}
+
+/* <!-- Cont9 --> */
+
+.Cont9{
+display: flex;
+justify-content: center;
+width: 100%;
+height: 300px;
+background-color: rgb(158, 155, 155);}
+
+.lastlogo{
+vertical-align: middle;
+width: 250px;
+height: 80px;
+margin: 2px;
+}
+
+.ollist2{
+text-decoration: none;
+width: 60%;
+height: 300px;
+}
+
+.ollist2 ol{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 0;
+}
+
+.ollist2 ol li{
+    list-style-type: none;
+    line-height: 2em;
+    padding-left: 30px;
+}
